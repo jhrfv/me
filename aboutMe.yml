@@ -1,11 +1,11 @@
 # This file is UPER IMPORTANT. It's what joins your github name to your
 # student number, and that's what makes sure that you get a mark.
 
-first_name: Your Name
-studentNumber: z1234567 # if you're not at UNSW, your org name, e.g. BVN
+first_name: Jhazmin
+studentNumber: z5439496 # if you're not at UNSW, your org name, e.g. BVN
 # accounts
-stackOverflowLink: https://stackoverflow.com/users/1835727/ben
-github: notionparallax
+stackOverflowLink: https://stackoverflow.com/users/21977375/jhazmin
+github: jhrfv
 # This format is called YAML which stands for Yet Another Markup Language
 # It's supposed to be machine readable, and human readable. It does a pretty
 # good job of both of those goals, but there are some gotchas:
@@ -14,3 +14,5 @@ github: notionparallax
 # anything that starts with a #, like this line, is a comment. It's ignored by
 # the computer.
 # The tests check this file pretty carefully, so make sure it's properly filled in!
+
+
