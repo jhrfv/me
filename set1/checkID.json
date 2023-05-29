@@ -1,0 +1,34 @@
+{
+    "architecture": [
+        "64bit",
+        ""
+    ],
+    "machine": "x86_64",
+    "os_name": "posix",
+    "platform": "macOS-13.0.1-x86_64-i386-64bit",
+    "processor": "i386",
+    "release": "22.1.0",
+    "system": "Darwin",
+    "uname": [
+        "Darwin",
+        "Jhazmins-MacBook-Pro.local",
+        "22.1.0",
+        "Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:54 PDT 2022; root:xnu-8792.41.9~2/RELEASE_X86_64",
+        "x86_64",
+        "i386"
+    ],
+    "version": "Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:54 PDT 2022; root:xnu-8792.41.9~2/RELEASE_X86_64",
+    "python_build": [
+        "default",
+        "Mar 10 2023 20:16:38"
+    ],
+    "python_compiler": "Clang 14.0.3 (clang-1403.0.22.14.1)",
+    "python_implementation(": "CPython",
+    "python_version(": "3.9.6",
+    "python_version_tuple": [
+        "3",
+        "9",
+        "6"
+    ],
+    "cpu_count": 8
+}
