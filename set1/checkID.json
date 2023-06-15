@@ -5,22 +5,22 @@
     ],
     "machine": "x86_64",
     "os_name": "posix",
-    "platform": "macOS-13.0.1-x86_64-i386-64bit",
+    "platform": "macOS-13.4-x86_64-i386-64bit",
     "processor": "i386",
-    "release": "22.1.0",
+    "release": "22.5.0",
     "system": "Darwin",
     "uname": [
         "Darwin",
         "Jhazmins-MacBook-Pro.local",
-        "22.1.0",
-        "Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:54 PDT 2022; root:xnu-8792.41.9~2/RELEASE_X86_64",
+        "22.5.0",
+        "Darwin Kernel Version 22.5.0: Mon Apr 24 20:51:50 PDT 2023; root:xnu-8796.121.2~5/RELEASE_X86_64",
         "x86_64",
         "i386"
     ],
-    "version": "Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:54 PDT 2022; root:xnu-8792.41.9~2/RELEASE_X86_64",
+    "version": "Darwin Kernel Version 22.5.0: Mon Apr 24 20:51:50 PDT 2023; root:xnu-8796.121.2~5/RELEASE_X86_64",
     "python_build": [
         "default",
-        "Mar 10 2023 20:16:38"
+        "May  7 2023 23:32:45"
     ],
     "python_compiler": "Clang 14.0.3 (clang-1403.0.22.14.1)",
     "python_implementation(": "CPython",

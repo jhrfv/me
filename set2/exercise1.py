@@ -17,20 +17,29 @@ import platform
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
+# I think this will print "what" from the some_words list by calling the print function
 some_words = ["what", "does", "this", "line", "do", "?"]
+print(some_words[0]) # it printed "what"
 
+#it will print the words from some_words list
 for word in some_words:
     print(word)
+#it printed "what", "does", "this", "line", "do", "?"
 
+#it will print the words from some_words list
 for x in some_words:
     print(x)
+#it printed "what", "does", "this", "line", "do", "?"
 
+# it will print the words "what", "does", "this", "line"
 print(some_words)
 
 if len(some_words) > 3:
     print("some_words contains more than 3 words")
+#it printed the whole list???
 
 
+# it will print "system, node, release, version, machine, and processor"
 def usefulFunction():
     """
     You may want to look up what uname does before you guess
