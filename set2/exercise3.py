@@ -82,10 +82,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    my_list = []
-    for i in range(5):
-        my_list.append("#")
-    return my_list
+    symbol_list = []
+    for i in range(number_of_items):
+        symbol_list.append(symbol)
+    return symbol_list
 
 
 def loops_2():
@@ -142,10 +142,10 @@ def loops_3():
     for i in range(10):
         number_row = []
         for j in range(10):
-            number_row.append(i)
+            number_row.append(str(i))
         number_square.append(number_row)
 
-    return str(number_square)
+    return number_square
 
 
 def loops_4():
@@ -168,10 +168,8 @@ def loops_4():
 
     number_square = []
     for i in range(10):
-        number_row = []
-        for j in range(10):
-            number_row.append(j)
-        number_square.append(number_row)
+        row = [str(i) for i in range(10)]
+        number_square.append(row)
 
     return number_square
 
@@ -238,11 +236,10 @@ def loops_6():
     the_wedge = []
     for i in range(10):
         row = []
-        for j in range(i + 1):
-            row.append(j)
-        the_wedge.append(row)
+        for j in range(i+1):
+            row.append(str(j))
+        the_wedge.append(row)      
     return the_wedge
-
 
 def loops_7():
     """Make a pyramid.
