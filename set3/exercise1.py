@@ -17,7 +17,11 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    return None
+
+    my_range = []
+    for i in range(start, stop, step):
+        my_range.append(i)
+    return my_range
 
 
 def two_step_ranger(start, stop):
@@ -58,7 +62,6 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
 
 
 if __name__ == "__main__":
