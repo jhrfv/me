@@ -32,12 +32,7 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    
-    range = []
-    for i in range(start, stop):
-        range.append(i)
-    return range(start, stop, 2)
-
+    return None 
 
 
 def stubborn_asker(low, high):
