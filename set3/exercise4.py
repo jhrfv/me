@@ -26,6 +26,27 @@ def binary_search(low, high, actual_number):
 
     # Write your code in here
 
+    while low <= high:
+        # Calculate the middle element
+        mid = (low + high) // 2
+
+        # Make a guess
+        guess = mid
+        tries += 1
+
+        # Print the current guess
+        print(f"Guess #{tries}: {guess}")
+
+        if guess == actual_number:
+            # Found the actual number, return the result
+            return {"guess": guess, "tries": tries}
+        elif guess < actual_number:
+            # The actual number is in the upper half
+            low = mid + 1
+        else:
+            # The actual number is in the lower half
+            high = mid - 1
+
     return {"guess": guess, "tries": tries}
 
 
