@@ -81,6 +81,11 @@ def super_asker(low, high):
     to make a function that does it all!
     """
 
+    while True:
+        try:
+            number = int(input(message))
+            if low 
+
 
 if __name__ == "__main__":
     # this section does a quick test on your results and prints them nicely.

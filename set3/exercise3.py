@@ -29,6 +29,28 @@ def advancedGuessingGame():
     purpose if you can!
     """
 
+    print("/nWlecome to the advancedguessing game!")
+    print("Please type 2 numbers to start:")
+
+    lowerbound= super_asker(-200000, 200000, "Enter a lower bound:")
+    upperbound =super_asker(
+        lowerbound + 2, 200000, f"Enter a upper bound, {lowerbound +2} or  above: "
+    )
+
+    print(f"OK Then, a number between {lowerbound} and  {upperbound} ?")
+    actualnumber = random.randint(lowerbound, upperbound)
+
+    while True:
+        guessednumber = super_asker(lowerbound, upperbound, "guess a number: ")
+        print(f"You guessed {guessednumber},")
+        if guessednumber == actualnumber:
+            print(f"You got it! It was {actualnumber},") 
+            return "You got it!"
+        elif guessednumber < actualnumber:
+            print("Too small, try again :")
+
+            
+
     return "You got it!"
     # the tests are looking for the exact string "You got it!". Don't modify that!
 
