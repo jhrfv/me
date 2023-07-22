@@ -262,7 +262,17 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+    pyramid = []
+    for i in range(5):
+        numbers_pyramid = []
+        for j in range(4 - i):
+            numbers_pyramid.append(" ")
+        for k in range(2 * i + 1):
+            numbers_pyramid.append("*")
+        for j in range(4 - i):
+            numbers_pyramid.append(" ")
+        pyramid.append(numbers_pyramid)
+    return pyramid
 
 
 def little_printer(some_kind_of_list, exercise_name):
